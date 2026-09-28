@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sitemesh>
+    <!-- Empty prefix: mapping paths below are used as-is -->
+    <decorator-prefix></decorator-prefix>
+
+    <mapping path="/*" decorator="/WEB-INF/decorators/main.jsp"/>
+    <mapping path="/webjars/*" exclude="true"/>
+    <mapping path="/ws/*" exclude="true"/>
+</sitemesh>
