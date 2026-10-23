@@ -4,3 +4,7 @@ target/
 .project
 .idea
 *.iml
+
+# Environments variables
+/src/main/resources/application-mysql.properties
+/src/main/resources/application-sqlserver.properties
